@@ -23,8 +23,8 @@ function TableRow(props) {
     }
   };
 
-  const field = "name.last" // need something to handle 
-  const order = "asc" // clicks on table headers that will be stored here
+  const field = "name.last" // need something to handle clicks on
+  const order = "asc"   // table headers that will be stored here
   const employees = props.employees.sort(compare(field, order));
 
   return (
