@@ -1,5 +1,6 @@
 import React from "react";
 import Table from "react-bootstrap/Table";
+import "./employees.css";
 
 function TableRow(props) {
   function compare(key, order = "asc") {
@@ -32,11 +33,11 @@ function TableRow(props) {
       <thead>
         <tr>
           <th>Picture</th>
-          <th>First Name</th>
-          <th>Last Name</th>
-          <th>Email</th>
-          <th>Phone</th>
-          <th>Birthday</th>
+          <th className="clickhead" data-key="firstName">First Name</th>
+          <th className="clickhead" data-key="lastName">Last Name</th>
+          <th className="clickhead" data-key="email">Email</th>
+          <th className="clickhead" data-key="phone">Phone</th>
+          <th className="clickhead" data-key="birthday">Birthday</th>
         </tr>
       </thead>
       <tbody>
