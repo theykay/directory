@@ -23,32 +23,34 @@ function Content(props) {
       );
     }
   };
-
+  
+  let employees = props.employees;
+  
   function clickit(event) {
+    event.preventDefault();
     // let key = event.target.value;
-    // console.log()
-    const field = event.target.value // need something to handle clicks on
-    const order = "asc"   // table headers that will be stored here
+    console.log(event.target.children[1].value)
+    const field = event.target.children[1].value;
+    const order = event.target.children[2].value;
     employees = props.employees.sort(compare(field, order));
   }
-
-  let employees;
 
   return (
     <>
     <form
       onSubmit={clickit}  
     >
-      <label for keys>Sort by:</label>
+      <label>Sort by:</label>
       <select name="keys" id="keys">
         <option value="name.first">First Name</option>
         <option value="name.last">Last Name</option>
-        <option value="email">Email</option>
-        <option value="phone">Phone</option>
         <option value="dob.date">Birthday</option>
       </select>
-      <button data-key="asc">Ascending</button>
-      <button data-key="desc">Descending</button>
+      <select>
+        <option value="asc">Ascending</option>
+        <option value="desc">Descending</option>
+      </select>
+      <button type="submit">organize</button>
     </form>
       <Table responsive>
         <thead>
