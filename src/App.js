@@ -1,11 +1,11 @@
 import { Component } from "react";
 import humans from "./data";
-import Employees from "./components/Employees";
+import Content from "./components/Content";
 
 class App extends Component {
   render() {
     return (
-      <Employees employees={humans}/>
+      <Content employees={humans}/>
     )
   }
 }

@@ -10,7 +10,8 @@ const employees = [
     "dob": {
       "monthNum": 1,
       "month": "January",
-      "day": 28
+      "day": 28,
+      "date": 1.28
     },
     "phone": "(080)-733-3122",
     "picture": {
@@ -30,7 +31,8 @@ const employees = [
     "dob": {
       "monthNum": 11,
       "month": "November",
-      "day": 17
+      "day": 17,
+      "date": 11.17
     },
     "phone": "(289)-250-8539",
     "picture": {
@@ -50,7 +52,8 @@ const employees = [
     "dob": {
       "monthNum": 4,
       "month": "April",
-      "day": 9
+      "day": 9,
+      "date": 4.09
     },
     "phone": "(782)-164-4185",
     "picture": {
@@ -70,7 +73,8 @@ const employees = [
     "dob": {
       "monthNum": 4,
       "month": "April",
-      "day": 7
+      "day": 7,
+      "date": 4.07
     },
     "phone": "(448)-880-3750",
     "picture": {
@@ -90,7 +94,8 @@ const employees = [
     "dob": {
       "monthNum": 11,
       "month": "November",
-      "day": 8
+      "day": 8,
+      "date": 11.08
     },
     "phone": "(908)-006-2024",
     "picture": {
@@ -110,7 +115,8 @@ const employees = [
     "dob": {
       "monthNum": 1,
       "month": "January",
-      "day": 13
+      "day": 13,
+      "date": 1.13
     },
     "phone": "(050)-392-1284",
     "picture": {
@@ -130,7 +136,8 @@ const employees = [
     "dob": {
       "monthNum": 12,
       "month": "December",
-      "day": 23
+      "day": 23,
+      "Date": 12.23
     },
     "phone": "(644)-595-8253",
     "picture": {
@@ -150,7 +157,8 @@ const employees = [
     "dob": {
       "monthNum": 3,
       "month": "March",
-      "day": 11
+      "day": 11,
+      "date": 3.11
     },
     "phone": "(152)-199-0095",
     "picture": {
@@ -170,7 +178,8 @@ const employees = [
     "dob": {
       "monthNum": 12,
       "month": "December",
-      "day": 5
+      "day": 5,
+      "date": 12.05
     },
     "phone": "(228)-352-5519",
     "picture": {
@@ -190,7 +199,8 @@ const employees = [
     "dob": {
       "monthNum": 1,
       "month": "January",
-      "day": 19
+      "day": 19,
+      "date": 1.19
     },
     "phone": "(284)-906-7951",
     "picture": {
@@ -210,7 +220,8 @@ const employees = [
     "dob": {
       "monthNum": 8,
       "month": "August",
-      "day": 23
+      "day": 23,
+      "Date": 8.23
     },
     "phone": "(504)-301-2654",
     "picture": {
@@ -230,7 +241,8 @@ const employees = [
     "dob": {
       "monthNum": 3,
       "month": "March",
-      "day": 17
+      "day": 17,
+      "date": 3.17
     },
     "phone": "(537)-245-7013",
     "picture": {
@@ -250,7 +262,8 @@ const employees = [
     "dob": {
       "monthNum": 6,
       "month": "June",
-      "day": 15
+      "day": 15,
+      "date": 6.15
     },
     "phone": "(850)-949-5455",
     "picture": {
@@ -270,7 +283,8 @@ const employees = [
     "dob": {
       "monthNum": 3,
       "month": "March",
-      "day": 12
+      "day": 12,
+      "date": 3.12
     },
     "phone": "(435)-154-1353",
     "picture": {
@@ -290,7 +304,8 @@ const employees = [
     "dob": {
       "monthNum": 4,
       "month": "April",
-      "day": 12
+      "day": 12,
+      "date": 4.12
     },
     "phone": "(148)-902-9004",
     "picture": {
@@ -310,7 +325,8 @@ const employees = [
     "dob": {
       "monthNum": 10,
       "month": "October",
-      "day": 20
+      "day": 20,
+      "date": 10.20
     },
     "phone": "(359)-395-0233",
     "picture": {
@@ -330,7 +346,8 @@ const employees = [
     "dob": {
       "monthNum": 2,
       "month": "February",
-      "day": 19
+      "day": 19,
+      "date": 2.19
     },
     "phone": "(224)-974-5963",
     "picture": {
@@ -350,7 +367,8 @@ const employees = [
     "dob": {
       "monthNum": 1,
       "month": "January",
-      "day": 31
+      "day": 31,
+      "date": 1.31
     },
     "phone": "(047)-169-2239",
     "picture": {
@@ -370,7 +388,8 @@ const employees = [
     "dob": {
       "monthNum": 3,
       "month": "March",
-      "day": 14
+      "day": 14,
+      "date": 3.14
     },
     "phone": "(355)-487-8666",
     "picture": {
@@ -390,7 +409,8 @@ const employees = [
     "dob": {
       "monthNum": 4,
       "month": "April",
-      "day": 13
+      "day": 13,
+      "date": 4.13
     },
     "phone": "(779)-199-6456",
     "picture": {
